@@ -2,7 +2,7 @@
 
 Using an _HTTP GET_ method, retrieve information from Wikipedia using a given topic. Query https://en.wikipedia.org/w/api.php?action=parse&section=0&prop=text&format=json&page=[topic] to get the _topic_ Wikipedia article. Print the total number of times that the string _topic_ appears in the article's text field.
 
-Note: te search is case-sensitive.
+Note: the search is case-sensitive.
 
 The query response from the website is a JSON object described below:
   - _parse_: A JSON object representing the article's parsed web page. It has the following three fields:
